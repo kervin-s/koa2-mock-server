@@ -1,0 +1,19 @@
+{
+  "name": "koa2-mock",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kervin",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-router": "^10.0.0",
+    "koa2-cors": "^2.0.6",
+    "mockjs": "^1.1.0",
+    "nodemon": "^2.0.7"
+  }
+}
